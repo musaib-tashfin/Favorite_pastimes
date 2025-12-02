@@ -1,0 +1,9 @@
+html{
+    background-color: grey;
+}
+
+h1{
+    color:white;
+    border: 10px solid black;
+    display: inline;
+}
