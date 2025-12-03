@@ -1,9 +1,42 @@
 html{
-    background-color: grey;
+    background-color:rgba(213, 186, 7, 0.148);
+}
+ h1{
+    color:black;
+    font-size:700;
+    text-align: center;
+    padding : 20px;
+}
+#myself h2{
+    color:black;
+    float:right;
+    border:0.1rem solid teal;
+    width: 400px;
+    padding : 10px;
 }
 
-h1{
-    color:white;
-    border: 10px solid black;
-    display: inline;
+#myself img{
+    margin: 10px;
+    border:3px solid orange;
+    
 }
+
+#myself{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.contents{
+    display: inline-block;
+    width:300px;
+    margin: 5px;
+    padding: 10px;
+    border : 3px solid darkolivegreen;
+    border-style: outset;
+}
+
+.titles{
+    text-align: center;
+    background-color: teal;
+}   
